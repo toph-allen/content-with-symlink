@@ -1,0 +1,13 @@
+---
+title: "Content"
+author: "Toph Allen"
+date: "8/19/2021"
+output: html_document
+---
+
+# Content using a module
+
+```{r setup, include=FALSE}
+m <- modules::use("module_symlink.R")
+m$foo()
+```
